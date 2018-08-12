@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         capital one auto finder
+// @name         capital one auto deal finder
 // @description  rounds price, mileage, and replaces carfax link with mileage/dollar value. Lowest means best deal!
 // @namespace    https://openuserjs.org/users/devinrhode2
 // @copyright    2018, devinrhode2 (https://openuserjs.org/users/devinrhode2)
