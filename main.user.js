@@ -21,7 +21,7 @@
 
 /* jslint esversion: 6*/
 
-(function() {
+window.runCapOneAutoScript = function() {
   'use strict';
   $('.detail-item').toArray().forEach(di => {
     if (di.firstChild.innerText) {
@@ -35,7 +35,6 @@
         finalPrice = parseFloat(price2)
       }
 
-      console.log(price2)
       di.firstChild.innerText = finalPrice
     }
   })
@@ -62,6 +61,7 @@
       di.firstChild.innerText = finalPrice
     }
   })
-  console.log('prices processed, capital one auto finder script successful');
+  console.log('prices processed, capital one auto finder script successful v0.0.1');
 
-})();
+};
+setTimeout(runCapOneAutoScript, 1000);
